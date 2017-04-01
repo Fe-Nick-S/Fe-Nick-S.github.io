@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #2d2d2d;
+  margin: 0;
+  font-family: 'Helvetica Neue', 'Lucida Grande', 'Source Sans Pro';
+}
+
+.container {
+  width: 50vw;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 10% 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  color: #aaa;
+  font-size: 22px;
+}
+
+h1, a, a:visited {
+  color: #eee;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f59937;
+  text-decoration: underline;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.contact-item {
+  list-style: none;
+  padding: 0 10px;
+  font-size: 22px;
+}
+
+.contact-item:first-child{
+  padding-left: 0;
+}
+
+.contact-item-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 5px 0 0;
+  background-repeat: no-repeat;
+}
+
+.icon_email {
+  background-image: url("../images/email_grey.png");
+}
+
+.icon_email:hover {
+  background-image: url("../images/email_orange.png");
+}
+
+.icon_github {
+  background-image: url("../images/github_grey.png");
+}
+
+.icon_github:hover {
+  background-image: url("../images/github_orange.png");
+}
+
+@media only screen and (max-width: 720px){
+  .container {
+    width: 100vw;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  @media only screen and (max-width: 360px){
+  .icon {
+    display: none;
+  }
+}
