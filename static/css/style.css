@@ -45,13 +45,13 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 0;
+  padding: 0;  
 }
 
 .contact-item {
   list-style: none;
   padding: 0 10px;
-  font-size: 22px;
+  font-size: 22px;  
 }
 
 .contact-item:first-child{
@@ -65,26 +65,33 @@ a:hover {
 }
 
 .icon {
-  width: 32px;
-  height: 32px;
+  width: 50px;
+  height: 50px;
   margin: 0 5px 0 0;
   background-repeat: no-repeat;
+  background-image: url("../images/sprite.png");
+}
+
+.icon:hover {
+  transform: scale(1.15, 1.15);
+  -ms-transform: scale(1.15, 1.15);
+  -webkit-transform: scale(1.15, 1.15);
 }
 
 .icon_email {
-  background-image: url("../images/email_grey.png");
+  background-position: 0px 0px;
 }
 
 .icon_email:hover {
-  background-image: url("../images/email_orange.png");
+  background-position: -50px 0px;
 }
 
 .icon_github {
-  background-image: url("../images/github_grey.png");
+  background-position: 0px -50px;
 }
 
 .icon_github:hover {
-  background-image: url("../images/github_orange.png");
+  background-position: -50px -50px;
 }
 
 @media only screen and (max-width: 720px){
@@ -101,8 +108,4 @@ a:hover {
     font-size: 18px;
   }
 
-  @media only screen and (max-width: 360px){
-  .icon {
-    display: none;
-  }
 }
