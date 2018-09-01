@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: #2d2d2d;
+  background: #fff;
   margin: 0;
   font-family: 'Helvetica Neue', 'Lucida Grande', 'Source Sans Pro';
 }
@@ -24,12 +24,12 @@ h1 {
 }
 
 p {
-  color: #aaa;
+  color: #000;
   font-size: 22px;
 }
 
 h1, a, a:visited {
-  color: #eee;
+  color: #f59937;
 }
 
 a {
@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: #f59937;
+  color: #fb4c7f;
   text-decoration: underline;
 }
 
@@ -79,19 +79,19 @@ a:hover {
 }
 
 .icon_email {
-  background-position: 0px 0px;
-}
-
-.icon_email:hover {
   background-position: -50px 0px;
 }
 
+.icon_email:hover {
+  background-position: 0px 0px;
+}
+
 .icon_github {
-  background-position: 0px -50px;
+  background-position: -50px -50px;
 }
 
 .icon_github:hover {
-  background-position: -50px -50px;
+  background-position: 0px -50px;
 }
 
 @media only screen and (max-width: 720px){
