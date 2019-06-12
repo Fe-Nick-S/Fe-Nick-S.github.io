@@ -1,1 +1,6 @@
 .idea/*
+node_modules/
+_site
+.sass-cache
+.DS_STORE
+assets/
