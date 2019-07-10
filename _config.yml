@@ -9,6 +9,62 @@ username: Nick Fedoseev
 user_description: I'm a Software Engineer, graduated from the Polytechnic University of Perm in 2014. I've always had a passion for computers and problem solving. Since, I began my journey into the world of computer science, I've worked with numerous professional teams, working on code that has included frontend, backend, and internal tools to name a few. It was an interesting challenge for me that helped get a strong, deep background in software and IT. I'm hoping in the future I will be able to improve my skills, accept bigger responsibilities and apply my new knowledge to create better programs.
 user_title: Software developer (back-end oriented)
 
+skills:
+  - langs:
+    title: Languagues
+    icons:
+      - devicon-go-line colored
+      - devicon-python-plain-wordmark
+      - devicon-javascript-plain colored
+      - devicon-php-plain colored
+    tags:
+      - Python
+      - Golang
+      - JavaScript
+      - PHP
+      - Bash
+    description: I have 7 years of programming experience. In that time, I've used a range of languages including GoLang, Python, JavaScript, PHP and less often others.
+
+  - web:
+    title: Web
+    icons:
+      - devicon-nodejs-plain colored
+      - devicon-react-original-wordmark colored
+      - devicon-jquery-plain-wordmark colored
+      - devicon-bootstrap-plain-wordmark colored
+    tags:
+      - Node.JS
+      - ReactJS
+      - jQuery
+      - Bootstrap
+      - ExtJS
+      - EmberJS
+    description: I've had the opportunity to explore numerous tools in which to create web applications and different SPAs.
+
+  - other:
+    title: DBs & tools
+    icons:
+      - devicon-postgresql-plain-wordmark colored
+      - devicon-mongodb-plain-wordmark colored
+      - devicon-redis-plain-wordmark colored
+      - devicon-git-plain
+      - devicon-docker-plain-wordmark colored
+      - devicon-nginx-plain-wordmark colored
+    tags:
+      - PostgreSQL
+      - MySQL
+      - Redis
+      - Memcached
+      - ClickHouse
+      - Tarantool
+      - Git
+      - Docker
+      - AWS
+      - Nginx
+      - Ansible
+      - ELK
+    description: In my work I had to use many different databases and DBMS, tools for configure web servers and used practices of CI/CD.
+
 # Google-analytics
 google-analytics:
   id: ""
