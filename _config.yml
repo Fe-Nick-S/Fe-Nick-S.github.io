@@ -67,6 +67,6 @@ skills:
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-93922965-2"
 
 exclude: ['package.json', 'src' , 'node_modules']
