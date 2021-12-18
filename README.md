@@ -13,6 +13,13 @@ bundle exec jekyll serve --watch
 ```
 ---
 
+### Deploy
+
+```
+npm run dev
+
+```
+---
 
 ### Contribution
 
