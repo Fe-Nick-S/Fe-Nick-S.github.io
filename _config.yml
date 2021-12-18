@@ -16,13 +16,19 @@ skills:
       - devicon-go-line colored
       - devicon-python-plain-wordmark
       - devicon-javascript-plain colored
-      - devicon-php-plain colored
+      - devicon-java-plain-wordmark colored
+      - devicon-ruby-plain-wordmark colored
+      - devicon-android-plain-wordmark colored
     tags:
       - Python
       - Golang
       - JavaScript
-      - PHP
+      - Java
       - Bash
+      - PHP
+      - Perl
+      - Kotlin
+      - Swift
     description: I have 7 years of programming experience. In that time, I've used a range of languages including GoLang, Python, JavaScript, PHP and less often others.
 
   - web:
@@ -30,13 +36,17 @@ skills:
     icons:
       - devicon-nodejs-plain colored
       - devicon-react-original-wordmark colored
-      - devicon-jquery-plain-wordmark colored
+      - devicon-angularjs-plain colored
+      - devicon-vuejs-plain-wordmark colored
       - devicon-bootstrap-plain-wordmark colored
+      - devicon-jquery-plain-wordmark colored
     tags:
-      - Node.JS
+      - NodeJS
       - ReactJS
-      - jQuery
+      - AngularJS
+      - VueJS
       - Bootstrap
+      - jQuery
       - ExtJS
       - EmberJS
     description: I've had the opportunity to explore numerous tools in which to create web applications and different SPAs.
@@ -53,15 +63,14 @@ skills:
     tags:
       - PostgreSQL
       - MySQL
+      - ClickHouse
       - Redis
       - Memcached
-      - ClickHouse
       - Tarantool
-      - Git
-      - Docker
       - AWS
-      - Nginx
+      - Docker
       - Ansible
+      - Nginx
       - ELK
     description: In my work I had to use many different databases and DBMS, tools for configure web servers and used practices of CI/CD.
 

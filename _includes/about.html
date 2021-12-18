@@ -5,7 +5,9 @@
 
 <div class="user">
   {% for skill in site.skills %}
+
   <div class="tech">
+
     <div class="tech-title">
       <h2> {{ skill.title }} </h2>
     </div>
@@ -17,16 +19,12 @@
     </div>
 
     <div class="tech-tags">
-      <p>
-        {% for tag in skill.tags %}
+
+       {% for tag in skill.tags %}
+        <div class="tech-tag">
           <b>{{ tag }}</b>
-
-          {% if forloop.last == false %}
-            &nbsp|&nbsp
-          {% endif %}
-
-        {% endfor %}
-      </p>
+        </div>
+      {% endfor %}
     </div>
 
     <div class="tech-description">
