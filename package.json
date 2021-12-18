@@ -1,22 +1,14 @@
 {
-  "name": "PersBlog",
+  "name": "personal-blog",
   "version": "1.0.0",
   "description": "Personal blog...",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp"
+    "develop": "bundle exec jekyll clean && npm run -p develop:jekyll",
+    "develop:jekyll": "sleep 5 && bundle exec jekyll serve --watch --livereload",
+    "build": "build:jekyll",
+    "build:jekyll": "JEKYLL_ENV=production bundle exec jekyll build"
   },
   "author": "Nick Fedoskin",
-  "license": "MIT",
-  "dependencies": {
-    "browser-sync": "^2.26.14",
-    "gulp": "^4.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^3.0.1",
-    "gulp-imagemin": "^5.0.3",
-    "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.1",
-    "npm": "^6.14.11"
-  }
+  "license": "MIT"
 }
