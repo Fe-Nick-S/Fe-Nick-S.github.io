@@ -16,7 +16,8 @@ bundle exec jekyll serve --watch
 ### Deploy
 
 ```
-npm run dev
+npm run develop
+npm run build
 
 ```
 ---
